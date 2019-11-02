@@ -1,0 +1,111 @@
+body, html { 
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #320032; 
+	background-image: url("/library/images/backgrounds/scales2.jpg");
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+	font-family: Arial, sans-serif;
+}
+
+#wrap {
+	float: right;
+	width: 80%;/*750px;*/
+	/*margin:0 auto;*/
+	
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+    	font-size: 30px;
+}
+
+#main {
+	/*background:#E8E8E8;
+	background:rgba(255, 255, 255, 0);*/
+	float:right;
+	/*width: 80%;520px;*/ 
+	margin: 1cm;
+	margin-right: .5cm;
+	padding: 0px;
+	
+	background: rgba(255, 255, 255, 0);
+    	-pie-background:  rgba(200, 54, 54, 0);
+    	behavior: url(PIE.htc);
+	/*min-width: 400px;*/
+}
+
+#main a:hover:not(.active){
+	box-shadow: 0px 0px 100px 5px black;
+}
+
+#sidebar {
+	/*background:#96e4e4;#9cc;*/
+	background:rgba(153, 204, 204, .9);
+	float:left;
+	width: 18%;/*100px;*/
+	/*height: 100%;*/
+	padding: 0px;
+	opacity: .9;
+	position: fixed;
+	min-width: 150px;
+}
+
+#sidebar ul {
+    	list-style-type: none;
+	font-family: Arial, sans-serif;
+	margin: 0;
+    	padding: 0;
+    	width: 18%;/*200px;*/
+    	background-color: #f1f1f1;		
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	min-width: 150px;
+}
+
+#sidebar li {
+    	text-align: center;
+}
+
+#sidebar h1{
+	font-size: 30px;
+	margin: 10px;
+}
+
+li a {
+	text-align:center;
+    	display: block;
+    	color: #000;
+    	padding: 8px 0 8px 0px;
+    	text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover:not(.active){
+    	background-color: #555;
+    	color: white;
+}
+
+#footer {
+	
+	float: right;
+	color: white;
+	background:#707070;
+	clear:both;
+	padding:5px 10px;
+	background-image: url("/library/images/backgrounds/scratch.jpg");
+
+}
+#footer p {
+	margin:0;
+}
+
+a:link { text-decoration: none; color: #3A003A; }
+a:visited { text-decoration: none; color: #191947; }
+a:hover { text-decoration: none; color:black; /*background-color: #d0d0d0 ;*/ }
+a:active { text-decoration: none;color: #d0d0d0; background-color: black; }
+
