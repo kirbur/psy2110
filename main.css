@@ -5,6 +5,8 @@ body, html {
 	background: #320032; 
 	background-image: url("/library/images/backgrounds/scales2.jpg");
 	background-attachment: fixed;
+
+	max-height: 1028px;
 }
 
 h1, h2, h3, h4, h5, h6, p, pre {
