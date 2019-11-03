@@ -6,17 +6,36 @@ body, html {
 	background-attachment: fixed;
 
 	max-height: 1028px;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 32px;
 }
 
 .main {
-	margin: 20px;
-	background: #3a39399a;
+	margin: 50px;
+	padding: 50px;
+	padding-top: 10px;
+	border-radius: 0px 50px;
+	background: #ffffffa6;
+
+	min-height: 480px;
 }
 
 .flex{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .knitPics{
-	max-width: 200px;
+	max-height: 200px;
+	margin: 10px;
+}
+
+.marginLeft{
+	margin: 0 20px;
 }
