@@ -39,3 +39,8 @@ h1 {
 .marginLeft{
 	margin: 0 20px;
 }
+
+.scarf{
+	max-height: 200px;
+	margin: auto;
+}
