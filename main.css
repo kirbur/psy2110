@@ -31,6 +31,19 @@ h1 {
 	justify-content: space-around;
 }
 
+.flex-row {
+	display: flex;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	justify-content: center;
+
+	text-align: center;
+}
+
 .knitPics{
 	max-height: 125px;
 	margin: 10px;
